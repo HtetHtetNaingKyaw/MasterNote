@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Note</title>
+    <link rel="shortcut icon" href="notes.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-header">Master Note</div>
+      <div class="nav-item">
+        <div class="">Home</div>
+        <div class="">About</div>
+        <div class="">Contact</div>
+      </div>
+      <i
+        class="fa-solid fa-bars menu-icon"
+        id="icon"
+        style="font-size: 25px"
+      ></i>
+    </div>
+    <div class="offcanvas" style="font-size: 21px" id="offcanvas">
+      <div class="offcanvas-header">
+        <div>Menu</div>
+        <button id="close">close</button>
+      </div>
+      <hr />
+      <div class="offcanvas-body">
+        <div class="offcanvas-item">Home</div>
+        <div class="offcanvas-item">About</div>
+        <div class="offcanvas-item">Contact</div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
